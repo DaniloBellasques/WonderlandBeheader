@@ -1,6 +1,7 @@
 
+
 body{
-    background-image: url('img/Caverna1.png');
+    background-image: url('img/cavernaMenu\ 1.png');
     background-size: 100%;
     background-position: top;
     background-repeat: no-repeat;
@@ -69,8 +70,9 @@ ul li.item-menu a .icon{
     font-size: 30px;
 }
 
-img, h3{
-    margin: 0;
-    padding: 0;
+
+
+.card{
+    background-color: blue;
 }
 
