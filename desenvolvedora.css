@@ -1,6 +1,3 @@
-
-
-
 *{
     margin:0;
     padding:0;
@@ -63,33 +60,3 @@ ul li.item-menu a .txt-link{
 ul li.item-menu a .icon{
     font-size: 30px;
 }
-
-.card{
-    background-color: rgba(8, 37, 65, 0.548);
-    border: white solid 5px;
-}
-
-.image-text img {
-    display: block;
-    margin: 0 auto; /* Centraliza a imagem horizontalmente */
-}
-
-
-.card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 330px;
-    
-}
-
-.card:hover {
-    transform: scale(1.05); /* Aumenta o card em 5% */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma leve sombra ao card */
-}
-
-html, body {
-    overflow-x: hidden;
-  }
-
-
-
-  

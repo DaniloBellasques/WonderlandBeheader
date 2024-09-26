@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Dancing+Script:wght@400..700&family=Lobster&display=swap');
+ 
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Dancing Script", cursive;
+}
+body{
+    padding: 50px;
+    height: 100vh;
+    margin: 0px;
+    background-color: rgba(8, 37, 65, 0.548)  ;
+    color: #fff
+}
+/*INTERAÇÃO COM O MENU DO SITE*/
+nav.menu-lateral{
+    width: 10px;  /*210px = aberto 10px = fechado*/
+    height: 100%;
+    background-color: rgba(8, 37, 65, 0.548);
+    padding: 30px 0 40px 1%;
+    box-shadow: 3px 0 0 rgb(0, 83, 131);
+ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+ 
+nav.menu-lateral:hover{ /*efeito que mostra o menu inteiro*/
+    width: 180px;
+}
+ 
+ul{
+    height: 50%;
+    list-style-type: none;
+}
+ul li.item-menu{
+    transition: 1s
+}
+ 
+ 
+ul li.item-menu:hover{
+    background: rgb(0, 100, 118);
+}
+ 
+ul li.item-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+ 
+ul li.item-menu a .txt-link{
+    margin-left: 20px;
+ 
+}
+ul li.item-menu a .icon{
+    font-size: 30px;
+}
+ 
+ 
+/*EDIÇÃO DAS INFORMAÇÕES DO SITE */
+.sobre-jogo p{
+   margin-left: 400px;
+   margin-top: 30px;
+    /*define o tamanho da margem*/
+   padding: 50px;
+   width: 500px;
+   background-color: rgba(8, 37, 65, 0.548);
+   border-radius: 20px;
+   font-size: 25px
+}
+ 
+.historia{
+    margin-left: 400px;
+     /*define o tamanho da margem*/
+    padding: 30px;
+    width: 500px;
+    background-color: rgba(8, 37, 65, 0.548);
+    border-radius: 20px;
+    font-size: 15px
+}
+ 
+ 
+.titulo-jogo img{
+    width: 500px;
+    margin-left: 380px;
+}
+ 
+ 
+.intro{
+    display: flex;
+    justify-content: center;
+}
+.intro p{
+    margin: 20px;
+    margin-top: 280px;
+}
+.intro img{
+    height: 630px;
+    margin: 20px;
+    margin-top: 280px;
+}
+ 
+ 
+.sobre-jogo{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1px 5fr; /* Defina a largura da imagem e do texto */
+    grid-gap: 5px; /* Espaçamento entre a imagem e o texto */
+}
+.sobre-jogo img{
+    position: absolute;
+    width: 600px;
+    margin-left: 268px;
+}
+ 
+section.img{
+    width: 50%;
+    height: 50%;
+   
+}
+ 
+h2{
+    display: flex;
+    justify-content: center;
+}
+ 
+.cenarios{
+    display: flex;
+    justify-content: center;
+}
+.cenarios img{
+    width: 300px;
+    margin: 20px;
+    position: fixed;
+    overflow: hidden;
+    transition: .2s;
+   
+}
+.cenarios:hover img{
+    transition: 0.1;
+}
+ 
